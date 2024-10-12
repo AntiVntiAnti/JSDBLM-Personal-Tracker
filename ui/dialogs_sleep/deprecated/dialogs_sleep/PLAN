@@ -1,0 +1,23 @@
+TABLES
+
+sleep_quality_table
+    sleep_date(date)
+        (ui* only)sleep_quality_slider
+    sleep_quality
+
+sleep_table
+    sleep_date
+    time_asleep
+    time_awake
+
+total_hours_slept_table
+    sleep_date
+    total_hours_slept
+
+woke_up_like_table
+    sleep_date
+        (ui* only)woke_up_like_slider
+    woke_up_like
+
+
+
